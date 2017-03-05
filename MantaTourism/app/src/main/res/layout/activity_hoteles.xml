@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/fondo1"
+    android:textStyle="bold|italic">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvhotel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOTELES"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textColor="#006666"
+        android:layout_margin="10dp"
+        android:textStyle="bold|italic"
+        />
+
+           <Button
+               android:id="@+id/btn1"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Hotel oro verde"
+               android:onClick="hotel1"
+               android:padding="10dp"
+               android:layout_gravity="center_horizontal"
+               android:textStyle="bold|italic"
+               android:backgroundTint="@color/teal"
+               android:textColor="#00FFFF"
+               android:textSize="18dp"/>
+
+           <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/hotel1"
+        android:layout_gravity="center_vertical"
+               android:adjustViewBounds="true" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hotel mantahost"
+        android:onClick="hotel2"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold|italic"
+        android:backgroundTint="@color/teal"
+        android:textColor="#00FFFF"
+        android:textSize="18dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/hotel2"
+        android:layout_gravity="center_vertical"
+        android:adjustViewBounds="true"/>
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hotel Poseidon"
+        android:onClick="hotel3"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold|italic"
+        android:backgroundTint="@color/teal"
+        android:textColor="#00FFFF"
+        android:textSize="18dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/hotel3"
+        android:layout_gravity="center_vertical"
+        android:adjustViewBounds="true"/>
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hotel Mar Azul"
+        android:onClick="hotel4"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold|italic"
+        android:backgroundTint="@color/teal"
+        android:textColor="#00FFFF"
+        android:textSize="18dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/hotel4"
+        android:layout_gravity="center_vertical"
+        android:adjustViewBounds="true"/>
+
+       </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

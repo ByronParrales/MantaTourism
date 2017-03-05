@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/fondo1"
+    android:textStyle="bold|italic">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvhotel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Playas"
+                android:layout_gravity="center_horizontal"
+                android:textSize="25sp"
+                android:textColor="#006666"
+                android:layout_margin="10dp"
+                android:textStyle="bold|italic"
+                />
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Playa la Tiñosa"
+                android:onClick="playa"
+                android:padding="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold|italic"
+                android:backgroundTint="@color/teal"
+                android:textColor="#00FFFF"
+                android:textSize="18dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/tinosa"
+                android:layout_gravity="center_vertical"
+                android:adjustViewBounds="true" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Playa Murcielago"
+                android:onClick="playa2"
+                android:padding="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold|italic"
+                android:backgroundTint="@color/teal"
+                android:textColor="#00FFFF"
+                android:textSize="18dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/murcielago"
+                android:layout_gravity="center_vertical"
+                android:adjustViewBounds="true"/>
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Playa Santa Marianita"
+                android:onClick="playa3"
+                android:padding="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold|italic"
+                android:backgroundTint="@color/teal"
+                android:textColor="#00FFFF"
+                android:textSize="18dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/santamarianita"
+                android:layout_gravity="center_vertical"
+                android:adjustViewBounds="true"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

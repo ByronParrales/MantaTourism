@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/fondo1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="com.facci.mantatourist.IniciaSesion">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tvIniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Sesión"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textColor="#006666"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textStyle="bold|italic"
+        />
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Correo"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/etContraseña"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        />
+            <Button
+        android:id="@+id/btnIniciar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Sesión"
+        android:onClick="Iniciar"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold|italic"
+        android:backgroundTint="@color/teal"
+        android:textColor="#00FFFF"
+        android:layout_margin="20dp"
+        android:textSize="18dp"/>
+
+            <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:textSize="18dp"
+        android:id="@+id/btnRegistrar"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold|italic"
+        android:backgroundTint="@color/teal"
+        android:textColor="#00FFFF"
+        android:onClick="Registrar"/>
+
+
+
+
+            </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
